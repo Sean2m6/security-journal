@@ -1,0 +1,48 @@
+# credentials and keys - never commit these
+*.pem
+*.key
+# putty keys
+*.ppk
+id_rsa*
+id_ed25519*
+# keepass password database
+*.kdbx
+.netrc
+.env
+.env.*
+secrets/
+credentials*
+
+# vpn and lab files (hackthebox / tryhackme)
+*.ovpn
+
+# recon output and loot
+# can hold target data or secrets, and posting scans of
+# active htb machines is against the rules
+*.nmap
+*.gnmap
+*.xml
+*.pcap
+*.pcapng
+# cracked password files from hashcat / john
+*.pot
+john.pot
+hashcat.potfile
+loot/
+private/
+
+# python leftovers
+__pycache__/
+*.pyc
+
+# os and editor junk
+.DS_Store
+Thumbs.db
+# backup and swap files
+*~
+*.swp
+*.swo
+*.save
+.Trash-*
+.idea/
+.vscode/

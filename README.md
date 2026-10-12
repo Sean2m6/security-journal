@@ -20,7 +20,7 @@ I scan, explore, and modify the ECU and module data on my own car. Using FORscan
 I went into the As-Built data and changed the values myself to turn on cruise
 control, keyless entry, and remote trunk release, and to change when the cabin
 lights come on. Credit to FORscan for giving me the idea to learn how all of it
-works.
+works. You can do the same with Ford IDS.
 
 It comes back to the same thing as the rest of this repo. I like knowing how
 stuff actually works, whether that's a car module or a box on HackTheBox.
